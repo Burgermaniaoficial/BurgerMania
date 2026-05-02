@@ -389,7 +389,7 @@ p {
 .history-gallery {
     align-self: stretch;
     position: relative;
-    min-height: 420px;
+    min-height: 320px;
 }
 
 .history-figure {
@@ -489,7 +489,7 @@ section {
 .split-image {
     align-self: stretch;
     position: relative;
-    min-height: 420px;
+    min-height: 320px;
 }
 
 .split-image-inner {
