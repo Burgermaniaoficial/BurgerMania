@@ -1059,6 +1059,9 @@ section {
 
     .burger-card {
         grid-template-columns: 1fr;
+        background: #1a1a1a;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
     }
 
     .burger-card:hover {
@@ -1074,7 +1077,7 @@ section {
     .burger-image {
         width: 100%;
         height: 260px;
-        background: transparent;
+        background: #1a1a1a;
     }
 
     .burger-image img {
