@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Mania - Hambúrgueres Artesanais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-wrapper">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#hero" class="brand">
+                <img class="brand-logo" src="./logo nova.png" alt="Burger Mania logo">
+                <div class="brand-copy">
+                    <span class="brand-burger">BURGER</span>
+                    <span class="brand-mania">MANIA<sup class="brand-reg">®</sup></span>
+                </div>
+            </a>
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav">
+                <a href="#nossa-casa">Nossa casa</a>
+                <a href="#burgers-destaques">Burgers destaques</a>
+                <a href="#seja-parceiro">Seja nosso parceiro</a>
+                <a href="https://api.whatsapp.com/send/?phone=5512982324350&text&type=phone_number&app_absent=0" target="_blank">Contato</a>
+                <a href="https://app.anota.ai/burger-mania-4?from=msa&utm_source=portal-share-btn" target="_blank">Peça seu Delivery</a>
+                <span class="nav-separator">|</span>
+                <a href="https://www.instagram.com/burgermaniaoficial/?hl=pt" class="nav-icon" target="_blank" aria-label="Instagram Burger Mania">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.75 2H16.25C19.0972 2 21.5 4.40279 21.5 7.25V16.75C21.5 19.5972 19.0972 22 16.25 22H7.75C4.90279 22 2.5 19.5972 2.5 16.75V7.25C2.5 4.40279 4.90279 2 7.75 2Z" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M16 11.9998C16 14.2091 14.2091 15.9998 12 15.9998C9.79086 15.9998 8 14.2091 8 11.9998C8 9.79062 9.79086 7.99982 12 7.99982C14.2091 7.99982 16 9.79062 16 11.9998Z" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M17.75 6.5H17.76" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </a>
+                <span class="nav-separator">|</span>
+                <a href="https://www.facebook.com/burgermaniaaoriginal/?locale=pt_BR" class="nav-icon" target="_blank" aria-label="Facebook Burger Mania">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2Z" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M14.5 8H12.75C11.0125 8 10.5 8.8075 10.5 10.05V11.5H9V14.25H10.5V20H13.5V14.25H15.5L16 11.5H13.5V10.25C13.5 9.9 13.675 9.5 14.25 9.5H16V8Z" fill="currentColor"/>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-copy fade-in">
+                <h1>UM NOVO JEITO<br>DE FAZER BURGERS</h1>
+                <p>Tudo isso começou com um sonho, e virou algo que vai muito além de hambúrguer. Uma construção diária feita de paixão e propósito.</p>
+                <a href="#historia" class="btn btn-hero">DESCUBRA</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="historia" class="history-section fade-in">
+        <div class="container history-inner">
+            <div class="history-gallery">
+                <figure class="history-figure">
+                    <img src="./foto historia.jpg" alt="Nossa história">
+                </figure>
+            </div>
+            <div class="history-copy">
+                <h2>Nossa história</h2>
+                <p>A história da Burger Mania começou há 10 anos, impulsionada pela nossa paixão pela gastronomia e pelo mundo hamburgueiro.</p>
+                <p>Em Santa Rita do Sapucaí (MG), tivemos a ideia de criar algo inovador, oferecendo uma experiência única em sabor e atendimento.</p>
+                <p>Com a família unida, colocamos a mão na massa e criamos hambúrgueres artesanais com receitas exclusivas e ingredientes selecionados.</p>
+                <p>O sucesso nos levou a São José dos Campos (SP). Hoje, mais do que um cardápio, oferecemos experiência em um ambiente acolhedor.</p>
+                <p>Entre desafios e conquistas, seguimos com a nossa maior receita: o amor.</p>
+            </div>
+        </div>
+
+        <div class="history-carousel">
+            <div class="container">
+                <h2 class="section-title">Conheça um pouco da nossa trajetória</h2>
+            </div>
+            <div class="container trajetoria-grid">
+
+                <article class="traj-card" data-moment="0" tabindex="0" role="button" aria-label="Ver momento: 2013 — O Início">
+                    <img src="./f11.jpg" alt="2013 início de tudo" loading="lazy">
+                    <div class="traj-card-overlay">
+                        <span class="traj-card-period">2013 - 2019</span>
+                        <h3 class="traj-card-title">O Início</h3>
+                        <span class="traj-card-cta">Ver mais
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </div>
+                </article>
+
+                <article class="traj-card" data-moment="1" tabindex="0" role="button" aria-label="Ver momento: Crescimento">
+                    <img src="./f21.jpg" alt="Fase de crescimento" loading="lazy">
+                    <div class="traj-card-overlay">
+                        <span class="traj-card-period">2020 - 2022</span>
+                        <h3 class="traj-card-title">Crescimento</h3>
+                        <span class="traj-card-cta">Ver mais
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </div>
+                </article>
+
+                <article class="traj-card" data-moment="2" tabindex="0" role="button" aria-label="Ver momento: Expansão">
+                    <img src="./f31.jpg" alt="Expansão para São Paulo" loading="lazy">
+                    <div class="traj-card-overlay">
+                        <span class="traj-card-period">2022 - 2023</span>
+                        <h3 class="traj-card-title">Expansão</h3>
+                        <span class="traj-card-cta">Ver mais
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </div>
+                </article>
+
+                <article class="traj-card" data-moment="3" tabindex="0" role="button" aria-label="Ver momento: Hoje">
+                    <img src="./f41.jpg" alt="Burger Mania hoje" loading="lazy">
+                    <div class="traj-card-overlay">
+                        <span class="traj-card-period">2026</span>
+                        <h3 class="traj-card-title">Hoje</h3>
+                        <span class="traj-card-cta">Ver mais
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Trajetória -->
+    <div class="traj-modal" id="trajModal" role="dialog" aria-modal="true" aria-label="Detalhes do momento">
+        <div class="traj-modal-inner">
+
+            <!-- Esquerda: carrossel -->
+            <div class="traj-slider">
+                <span class="traj-slider-period" id="trajSliderPeriod"></span>
+                <div class="traj-slides" id="trajSlides"></div>
+                <button class="traj-nav-btn" id="trajPrev" aria-label="Foto anterior">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 18L9 12l6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <button class="traj-nav-btn" id="trajNext" aria-label="Próxima foto">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="traj-dots" id="trajDots"></div>
+                <div class="traj-counter" id="trajCounter"></div>
+            </div>
+
+            <!-- Direita: descrição fixa -->
+            <div class="traj-modal-right">
+                <h3 class="traj-modal-title" id="trajModalTitle"></h3>
+                <div class="traj-modal-divider"></div>
+                <div class="traj-modal-desc" id="trajModalDesc"></div>
+            </div>
+
+            <button class="traj-modal-close" id="trajClose" aria-label="Fechar">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Burgers Destaques -->
+    <section id="burgers-destaques">
+        <div class="container">
+            <h2 class="section-title">Burgers destaques</h2>
+            <div class="burgers-grid">
+                <div class="burger-card">
+                    <div class="burger-image">
+                        <img src="./camembert.png" alt="Camembert Burger">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="burger-info">
+                        <h3>Camembert Burger</h3>
+                        <p>Pão de brioche, blend bovino de 150g, queijo camembert empanado, doce de leite, crocante de bacon e molho BM.</p>
+                    </div>
+                </div>
+                <div class="burger-card">
+                    <div class="burger-image">
+                        <img src="./marechal.jpg" alt="Marechal Burger">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="burger-info">
+                        <h3>Marechal Burger</h3>
+                        <p>Pão de brioche, blend bovino de 150g, queijo minas, banana empanada, mel, rúcula, tomate, cebola roxa e molho BM.</p>
+                    </div>
+                </div>
+                <div class="burger-card">
+                    <div class="burger-image">
+                        <img src="./manhattan.jpg" alt="Manhattan Burger">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="burger-info">
+                        <h3>Manhattan Burger</h3>
+                        <p>Pão australiano, blend bovino de 150g, cheddar cremoso, onion rings, paleta suína defumada e picles de pimenta jalapeno, e molho BM.</p>
+                    </div>
+                </div>
+                <div class="burger-card">
+                    <div class="burger-image">
+                        <img src="./pulled pork.jpeg" alt="Pulled Pork">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="burger-info">
+                        <h3>Pulled Pork Burger</h3>
+                        <p>Pão de brioche, blend bovino de 150g, american cheese, pulled pork, barbecue de goiabada, picles de jiló com cebola roxa e molho BM.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossa Casa -->
+    <section id="nossa-casa">
+        <div class="container split-section">
+            <div class="split-image">
+                <div class="split-image-inner">
+                    <img src="./casa.jpg" alt="Ambiente Burger Mania">
+                </div>
+            </div>
+            <div class="split-text">
+                <span class="eyebrow">Nossa casa</span>
+                <h2>Um ambiente pensado para você se sentir em casa.</h2>
+                <p>Mais do que uma hamburgueria, criamos um espaço acolhedor, confortável e cheio de personalidade. Aqui, cada detalhe foi pensado para transformar sua experiência em algo especial — do primeiro atendimento até a última mordida.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seja Nosso Parceiro -->
+    <section id="seja-parceiro" class="partner-section">
+        <div class="partner-split">
+
+            <!-- Lado esquerdo: imagem -->
+            <div class="partner-visual">
+                <div class="partner-glow"></div>
+                <img src="./foto parceiro.jpg" alt="Hambúrguer artesanal Burger Mania" class="partner-burger-img">
+                <div class="partner-smoke"></div>
+            </div>
+
+            <!-- Lado direito: conteúdo -->
+            <div class="partner-content">
+
+                <h2 class="partner-title">
+                    JÁ PENSOU EM TER O<br>
+                    SEU PRÓPRIO <span class="partner-gold">NEGÓCIO?</span>
+                </h2>
+
+                <div class="partner-divider">
+                    <span class="partner-divider-line"></span>
+                    <span class="partner-divider-line partner-divider-line--rev"></span>
+                </div>
+
+                <p class="partner-text">Você pode se tornar um parceiro da Burger Mania, uma marca que conquistou o paladar do Vale do Paraíba. Fundada há 13 anos em Minas, é sinônimo de qualidade e inovação.</p>
+                <p class="partner-text">Oferecemos um modelo de negócio prático e rentável, com receitas exclusivas que encantam um público exigente a cada dia. E o melhor de tudo: o retorno vem rápido!</p>
+
+                <div class="partner-highlights">
+                    <div class="partner-highlight-item">
+                        <span class="partner-highlight-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M12 7v5l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span class="partner-highlight-label">+13 anos de mercado</span>
+                    </div>
+                    <div class="partner-highlight-item">
+                        <span class="partner-highlight-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L3 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span class="partner-highlight-label">Marca consolidada</span>
+                    </div>
+                    <div class="partner-highlight-item">
+                        <span class="partner-highlight-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 7l-9.5 9.5-5-5L2 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 7h6v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span class="partner-highlight-label">Alto potencial de lucro</span>
+                    </div>
+                </div>
+
+                <a href="https://api.whatsapp.com/send/?phone=5512982324350&text&type=phone_number&app_absent=0"
+                   class="partner-btn" target="_blank">ENTRE EM CONTATO</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Burger Modal -->
+    <div class="burger-modal" id="burgerModal" role="dialog" aria-modal="true">
+        <div class="burger-modal-inner">
+            <button class="burger-modal-close" id="burgerModalClose" aria-label="Fechar">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            </button>
+            <div class="burger-modal-img-wrap">
+                <img id="burgerModalImg" src="" alt="">
+            </div>
+            <div class="burger-modal-info">
+                <h3 id="burgerModalTitle"></h3>
+                <p id="burgerModalDesc"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox Carrossel Trajetória -->
+    <div class="traj-lightbox" id="trajLightbox" role="dialog" aria-modal="true">
+        <button class="traj-lb-close" id="trajLbClose" aria-label="Fechar">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </button>
+        <button class="traj-lb-btn traj-lb-prev" id="trajLbPrev" aria-label="Anterior">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="traj-lb-img-wrap">
+            <img id="trajLbImg" src="" alt="">
+        </div>
+        <button class="traj-lb-btn traj-lb-next" id="trajLbNext" aria-label="Próxima">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <span class="traj-lb-counter" id="trajLbCounter"></span>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualizar foto">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </button>
+        <img class="lightbox-img" id="lightboxImg" src="" alt="">
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4 class="footer-heading">Localização</h4>
+                <a href="https://www.google.com/maps/dir//Burger+Mania,+Av.+Cidade+Jardim,+603+-+Jardim+Sat%C3%A9lite,+S%C3%A3o+Jos%C3%A9+dos+Campos+-+SP,+12231-675/@-22.2505839,-45.7048064,15z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x94cba2438a5e10cb:0x50a858aa1f77b75f!2m2!1d-45.8867604!2d-23.2185948?entry=ttu&g_ep=EgoyMDI2MDQyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="footer-map-link">Avenida Cidade Jardim, 603<br>Jardim Satélite, São José dos Campos</a>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Horário de Funcionamento</h4>
+                <p>Quarta a Sábado: 18h30 – 00h</p>
+                <p>Domingo: 18h30 – 23h30</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Contato</h4>
+                <p>(12) 98232-4350</p>
+                <p>bm.burgermania@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-brand">
+            <img src="./logo nova.png" alt="Burger Mania" class="footer-logo">
+        </div>
+    </footer>
+
+    </div><!-- fim .page-wrapper -->
+
+    <!-- Botão voltar ao topo -->
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Voltar ao topo">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <path d="M12 4l-8 8h5v8h6v-8h5z" fill="#111111"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
