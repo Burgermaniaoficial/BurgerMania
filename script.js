@@ -187,13 +187,13 @@ document.querySelectorAll('.burger-image').forEach(image => {
             period: '2013 - 2019',
             title: 'O Início',
             images: [
-                './f11.jpg',
-                './f12.jpg',
-                './f13.jpg',
-                './f14.jpg',
-                './f15.jpg',
-                './f16.jpg',
-                './f17.jpg'
+                './assets/f11.JPG',
+                './assets/f12.JPG',
+                './assets/f13.JPG',
+                './assets/f14.JPG',
+                './assets/f15.JPG',
+                './assets/f16.JPG',
+                './assets/f17.JPG'
             ],
             description: 'A nossa história começou em 2013, quando um sonho antigo começou a sair do papel.\n\nFomos até São Paulo buscar o necessário e, em Santa Rita do Sapucaí, encontramos uma garagem vazia que nos encantou — foi ali que começamos.\n\nCom muito trabalho, transformamos o espaço e demos vida ao nosso primeiro ponto. A inauguração superou as expectativas e, aos poucos, fomos crescendo e criando nossa identidade.\n\nForam 6 anos nesse lugar, onde construímos nossa base e transformamos um sonho em realidade.'
         },
@@ -201,11 +201,11 @@ document.querySelectorAll('.burger-image').forEach(image => {
             period: '2020 - 2022',
             title: 'Crescimento',
             images: [
-                './f21.jpg',
-                './f22.jpg',
-                './f23.jpg',
-                './f24.jpg',
-                './f25.jpg'
+                './assets/f21.jpg',
+                './assets/f22.jpg',
+                './assets/f23.jpg',
+                './assets/f24.jpg',
+                './assets/f25.jpg'
             ],
             description: 'Após seis anos no nosso primeiro endereço, entendemos que era hora de evoluir.\n\nBuscávamos um espaço mais alinhado com a experiência que queríamos proporcionar — e foi então que nos mudamos.\n\nDessa vez, para um ponto comercial menor, mais reservado, mas com muito mais personalidade. Um ambiente mais íntimo, que nos aproximou ainda mais de quem chegava.\n\nFoi nesse espaço que começamos a refinar tudo: receitas, combinações e detalhes que hoje definem quem somos.\n\nDepois de anos de aprendizado, foi ali que nosso sonho ganhou forma, identidade e propósito.'
         },
@@ -213,11 +213,11 @@ document.querySelectorAll('.burger-image').forEach(image => {
             period: '2022 - 2023',
             title: 'Expansão',
             images: [
-                './f31.jpg',
-                './f32.jpg',
-                './f33.jpg',
-                './f34.jpg',
-                './f35.jpg'
+                './assets/f31.jpg',
+                './assets/f32.jpg',
+                './assets/f33.jpg',
+                './assets/f34.JPG',
+                './assets/f35.JPG'
             ],
             description: 'Depois de dois anos no segundo espaço, percebemos que era hora de dar mais um passo.\n\nA demanda crescia e o lugar já não comportava tudo, então buscamos um espaço maior, sem abrir mão da nossa identidade.\n\nEscolhemos um ponto mais amplo, no coração de Santa Rita do Sapucaí, perto da igreja — um lugar com personalidade e espaço para crescer.\n\nAli, seguimos evoluindo, aprimorando cada detalhe e fortalecendo quem éramos.\n\nFoi um período de consolidação — e também o começo da nossa mudança para São José dos Campos.'
         },
@@ -225,16 +225,16 @@ document.querySelectorAll('.burger-image').forEach(image => {
             period: '2026',
             title: 'Hoje',
             images: [
-                './f41.jpg',
-                './f42.jpg',
-                './f43.jpg',
-                './f44.jpg',
-                './f45.PNG',
-                './f46.jpg',
-                './f47.jpg',
-                './f48.jpg',
-                './f49.PNG',
-                './f410.PNG'
+                './assets/f41.jpg',
+                './assets/f42.jpg',
+                './assets/f43.jpg',
+                './assets/f44.jpg',
+                './assets/f45.PNG',
+                './assets/f46.jpg',
+                './assets/f47.jpg',
+                './assets/f48.jpg',
+                './assets/f49.PNG',
+                './assets/f410.PNG'
             ],
             description: 'Depois de dez anos em Santa Rita do Sapucaí, sentimos que era o momento de ir além.\n\nNossa história já tinha raízes fortes, mas também trazia o desejo de crescer e explorar novas possibilidades — e, para isso, precisávamos mudar.\n\nApós muito pensar, escolhemos São José dos Campos, uma cidade com a energia e o cenário que buscávamos para a próxima fase.\n\nLevamos conosco tudo o que construímos e começamos um novo capítulo.\n\nMais do que uma mudança de cidade, foi uma evolução. Hoje, seguimos crescendo, sem perder a nossa essência.'
         }

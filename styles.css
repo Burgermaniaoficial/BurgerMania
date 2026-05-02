@@ -295,7 +295,7 @@ p {
 .hero-background {
     position: absolute;
     inset: 0;
-    background: url('./foto capa oficial.jpg') center 30%/cover no-repeat;
+    background: url('./assets/foto capa oficial.jpg') center 30%/cover no-repeat;
     filter: grayscale(100%) contrast(1.1) brightness(0.9);
     z-index: 0;
 }
