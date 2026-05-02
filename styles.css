@@ -1074,6 +1074,12 @@ section {
     .burger-image {
         width: 100%;
         height: 260px;
+        background: #141414;
+    }
+
+    .burger-image img {
+        object-fit: contain;
+        object-position: center;
     }
 
     .burger-info {
