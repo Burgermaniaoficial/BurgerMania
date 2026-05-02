@@ -34,22 +34,22 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     letter-spacing: 0.1em;
 }
 
 h2 {
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
+    font-size: 1.9rem;
+    margin-bottom: 1.6rem;
 }
 
 h3 {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
+    font-size: 1.15rem;
+    margin-bottom: 0.9rem;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 0.93rem;
     line-height: 1.95;
 }
 
@@ -152,7 +152,7 @@ p {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 0px;
     transition: color 0.25s ease;
     white-space: nowrap;
@@ -316,8 +316,8 @@ p {
 }
 
 .hero-copy {
-    max-width: 600px;
-    padding: 5rem 0;
+    max-width: 540px;
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -326,7 +326,7 @@ p {
 }
 
 .hero-copy h1 {
-    font-size: clamp(2.4rem, 4.5vw, 3.8rem);
+    font-size: clamp(2rem, 3.8vw, 3.2rem);
     color: #FFC107;
     text-transform: uppercase;
     font-weight: 800;
@@ -336,11 +336,11 @@ p {
 }
 
 .hero-copy p {
-    max-width: 560px;
+    max-width: 500px;
     color: rgba(255, 255, 255, 0.92);
-    font-size: 1.12rem;
+    font-size: 0.93rem;
     line-height: 1.95;
-    margin-bottom: 2rem;
+    margin-bottom: 1.6rem;
 }
 
 .btn-hero {
@@ -374,16 +374,16 @@ p {
 }
 
 .history-copy h2 {
-    font-size: clamp(2.2rem, 3vw, 3rem);
+    font-size: clamp(1.8rem, 2.5vw, 2.5rem);
     color: #FFC107;
     margin-bottom: 1.2rem;
 }
 
 .history-copy p {
     color: rgba(255, 255, 255, 0.92);
-    font-size: 1rem;
+    font-size: 0.93rem;
     line-height: 1.95;
-    margin-bottom: 1.1rem;
+    margin-bottom: 1rem;
 }
 
 .history-gallery {
@@ -427,11 +427,11 @@ p {
 
 @media (max-width: 960px) {
     .hero-copy {
-        padding: 3.5rem 0;
+        padding: 3rem 0;
     }
 
     .hero-copy h1 {
-        font-size: clamp(2.2rem, 6vw, 3.2rem);
+        font-size: clamp(1.9rem, 5vw, 2.8rem);
     }
 }
 
@@ -442,15 +442,15 @@ p {
     }
 
     .hero-copy {
-        padding: 2.5rem 0;
+        padding: 2rem 0;
     }
 
     .hero-copy h1 {
-        font-size: clamp(2rem, 8vw, 2.8rem);
+        font-size: clamp(1.7rem, 7vw, 2.4rem);
     }
 
     .hero-copy p {
-        font-size: 0.95rem;
+        font-size: 0.88rem;
     }
 }
 
@@ -518,14 +518,14 @@ section {
 
 .split-text h2 {
     color: #d4a017;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     line-height: 1.2;
     margin-bottom: 1.5rem;
 }
 
 .split-text p {
     color: #ccc;
-    font-size: 1rem;
+    font-size: 0.93rem;
     line-height: 1.95;
     max-width: 620px;
 }
@@ -1410,7 +1410,7 @@ section {
     position: relative;
     overflow: hidden;
     background: #000;
-    min-height: 340px;
+    min-height: 290px;
 }
 
 .burger-modal-img-wrap img {
@@ -1430,16 +1430,16 @@ section {
 
 .burger-modal-info h3 {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.35rem;
     color: #d4a017;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    margin: 0 0 1.2rem;
+    margin: 0 0 1rem;
 }
 
 .burger-modal-info p {
     color: rgba(255, 255, 255, 0.85);
-    font-size: 0.95rem;
+    font-size: 0.88rem;
     line-height: 1.85;
 }
 
@@ -1742,7 +1742,7 @@ section {
 
 .traj-modal-title {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.45rem;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
@@ -1760,7 +1760,7 @@ section {
 
 .traj-modal-desc {
     color: rgba(255, 255, 255, 0.75);
-    font-size: 0.95rem;
+    font-size: 0.87rem;
     line-height: 1.9;
     margin: 0;
 }
