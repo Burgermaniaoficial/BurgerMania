@@ -1074,7 +1074,7 @@ section {
     .burger-image {
         width: 100%;
         height: 260px;
-        background: #141414;
+        background: transparent;
     }
 
     .burger-image img {
